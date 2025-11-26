@@ -1,12 +1,25 @@
+# Dataset folders
 datasets/
 data/
-server/__pycache__/
-client/__pycache__/
-*.npy
-*.pt
-*.pth
-*.h5
-*.pkl
-*.zip
-*.tar
-*.gz
+
+# Python cache files
+__pycache__/
+*/__pycache__/
+*.py[cod]
+
+# Logs
+*.log
+
+# Environment / IDE files
+.env
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Backup / temporary files
+*.bak
+*.tmp
